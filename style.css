@@ -1,0 +1,116 @@
+
+
+
+*{
+   box-sizing: border-box;
+}
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items:center; 
+ 
+    font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    
+   
+  
+  }
+ 
+
+ .body{
+    padding:100px;
+     display:flex;
+     justify-content:space-around;
+ }
+
+   
+
+.style3{
+ display:inline-block;
+}
+  
+  .style{
+      width:3em; 
+      height:3em;
+  }
+  .style2{
+      width:1em;
+      height:1em;
+  }
+    
+  
+  .underline{
+      text-decoration:underline;
+      color: red;
+  }
+  .button {
+    padding: 15px 25px;
+  
+    font-family: Flame, sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #db3416;
+    border: none;
+    border-radius: 9999rem;
+   
+  }
+
+  
+  .button:hover {background-color:#8a2208 }
+  
+  .button:active {
+    background-color: #8a2208 ;
+   
+    transform: translateY(4px);
+  }
+ .button1{ padding: 15px 25px;
+  
+    font-family: Flame, sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:#8a2208 ;
+    border: none;
+    border-radius: 9999rem;
+
+ }
+   
+.button2{
+    padding: 15px 25px;
+  
+    font-family: Flame, sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:maroon;
+    font-weight: 200px;
+    background-color: lightcyan;
+    border: none;
+    border-radius: 9999rem;
+} 
+.card{
+  width:50%;
+height: 400px;
+}
+
+.rowone{
+  margin-top: 80px;
+  width:80%;
+  height:400px;
+  background-color: blue;
+  margin-left:50px;
+  
+}
+ 
+#text1{
+  width: 560px;
+  height: 100px;
+  background-color: #8a2208;
+  
+}
